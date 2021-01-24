@@ -1,0 +1,119 @@
+body {
+    position: relative;
+}
+
+main {
+    /* background-image: linear-gradient(to right, #16a085, #17a3a3); */
+    /* background-image: url('../img/wl3.jpg');
+    height: 550px;
+    background-size: cover; */
+    background: rgb(10, 255, 203);
+    background: linear-gradient(0deg, rgba(10, 255, 203, 1) 0%, rgba(23, 130, 48, 1) 100%);
+}
+
+main h2,
+main p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+    box-shadow: 2px 2px 2px rgba(9, 83, 83, 0.8);
+}
+
+section {
+    min-height: 600px;
+}
+
+.jumbotron {
+    height: 450px;
+    background-image: url('../img/wlp2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 254, 254);
+}
+
+.jumbotron1 {
+    height: 90px;
+    background: rgb(45, 156, 164);
+    background: linear-gradient(168deg, rgba(45, 156, 164, 1) 0%, rgba(86, 240, 104, 1) 100%);
+}
+
+.jumbotron1 {
+    box-shadow: 1px 1px 10px rgba(33, 226, 178, 0.4);
+}
+
+.about {
+    height: 450px;
+    /* background-image: url('../img/wl.jpg'); */
+    background-size: cover;
+    color: rgb(255, 254, 254);
+    background-color: #ffffff;
+}
+
+.jumbotron img {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.about {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.about h2,
+.about p {
+    text-align: center;
+    color: #16a085;
+}
+
+.about img {
+    display: block;
+    margin: auto;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.custom-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: top 0.3s ease, top 0.3s ease, top 0.3s ease;
+}
+
+.custom-field input:valid+.placeholder,
+.custom-field input:focus+.placeholder {
+    top: 10px;
+    font-size: 12px;
+    color: #222;
+}
+
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+}
+
+.custom-field.one input {
+    border-radius: 0;
+    border-top-left-radius: 3x;
+    border-top-right-radius: 3px;
+    background: linear-gradient(90deg, #ccc, #ccc)left bottom/100% 2px no-repeat;
+}
